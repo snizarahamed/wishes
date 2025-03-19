@@ -1,0 +1,197 @@
+
+.glass {
+    background: linear-gradient(135deg, rgba(216, 57, 150, 0), rgba(216, 57, 150, 0.404));
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .glass1 {
+    background: linear-gradient(135deg, rgba(216, 57, 150, 0.171), rgba(216, 57, 150, 0.164));
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+/* .font-style-none{
+    font-style: none;
+    EB Garamond
+} */
+
+
+@media only screen and (max-width: 992px) {
+
+  .landing_page_bg{
+      background-image: url(../assets/Ameen_bg_mobile.svg) !important;background-size: 100%;background-repeat: none;
+  }
+
+}
+
+.landing_page_bg{
+  background-image: url(../assets/Ammen_bg.svg);background-size: 100%;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+  
+.font_custom1{
+    font-family: "EB Garamond", serif;
+    letter-spacing: 0px;
+}
+
+body{
+    font-weight:350 !important;
+    font-style: normal;
+    font-size: 16px;
+    /* line-height: 1.7rem !important; */
+
+}
+
+/* .progress-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.5s ease-in-out;
+    stroke-linecap: round;
+    stroke-dasharray: 314;
+    stroke-dashoffset: 314;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+} */
+
+/* Slider */
+  .slider_section .carousel-indicators {
+    position: unset;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .slider_section .carousel-indicators li {
+    background-color: #1b1b1b;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    opacity: 1;
+    margin: 10px 5px;
+    list-style: none;
+
+  }
+  
+  .slider_section .carousel-indicators li.active {
+    width: 20px;
+    height: 20px;
+    background-color: #ffcdcd;
+  }
+
+  .container_custom_padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+.bg_video{
+  background-image: url(../assets/Bg_landing2.gif);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .bounce_animation{
+      width: 40% !important;position:absolute;top:-100px !important;left: 101px !important;font-size: 8px !important;
+  }
+
+  .bounce_animation1{
+     width: 40% !important;position:absolute;bottom:120px !important;right: 5px !important;font-size: 8px !important;
+  }
+  .bounce_animation2{
+    width: 40% !important;position:absolute;bottom:-40px !important;right: 30px !important;font-size: 8px !important;
+}
+
+
+.bounce_animation4{
+  width: 40% !important;position:absolute;top:-30px  !important;left: 2px !important;font-size: 8px !important;
+}
+
+.bounce_animation5{
+ width: 40% !important;position:absolute;bottom:-61px !important;left: 20px !important;font-size: 8px !important;
+}
+
+}
+
+.bounce_animation{
+  border-radius: 10px;width: 20%;font-size: 10px;position:absolute;top:30px;
+  animation: moveBounce_prodt 6s infinite linear;
+}
+
+.bounce_animation1{
+  border-radius: 10px;width: 20%;font-size: 10px;position:absolute;right: 270px;bottom: 20px;
+  animation: moveBounce_prodt1 5s infinite linear;
+}
+
+.bounce_animation2{
+  border-radius: 10px;width: 20%;font-size: 10px;position:absolute;bottom:80px;right: 50px;
+  animation: moveBounce_prodt 5s infinite linear;
+}
+
+
+.bounce_animation4{
+  border-radius: 10px;width: 20%;font-size: 10px;position:absolute;top:-20px;left: 260px;
+  animation: moveBounce_prodt 5s infinite linear;
+}
+.bounce_animation5{
+  border-radius: 10px;width: 20%;font-size: 10px;position:absolute;bottom:46px;left: 50px;
+  animation: moveBounce_prodt1 5s infinite linear;
+}
+
+@keyframes moveBounce_prodt{
+
+  0% {
+    transform: translateY(0);
+}
+
+50% {
+    transform: translateY(-20px);
+}
+100% {
+    transform: translateY(0);
+}
+
+}
+
+@keyframes moveBounce_prodt1{
+
+  0% {
+    transform: translateY(0);
+}
+
+50% {
+    transform: translateY(20px);
+}
+100% {
+    transform: translateY(0);
+}
+
+}
+
+.fw-bold{
+  font-weight: 600 !important;
+}
